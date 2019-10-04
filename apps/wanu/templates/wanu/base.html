@@ -1,0 +1,240 @@
+{% load staticfiles %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="{{language_code}}">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="{% static "logo/fav.png" %}" />
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="{% static "vendor/css/bootstrap.min.css" %}">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{% static "OwlCarousel/assets/owl.carousel.min.css" %}">
+    <link rel="stylesheet" href="{% static "OwlCarousel/assets/owl.theme.default.min.css" %}">
+
+
+
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+
+    <title>Wanubit | {% trans "The Future is Online" %} </title>
+    <meta property="description" content='{% trans "The easy way to build your website, Android applications and python software." %}' />
+
+    <meta property='og:title' content='{% trans "The Future is Online" %}' />
+    <meta property='og:image' content='{% static "img/logo_360.png" %}' />
+    <meta property='og:description' content='{% trans "The easy way to build your website, Android applications and python software." %}' />
+    <meta property='og:url' content='https://wanubit.com' />
+
+
+</head>
+
+<body data-spy="scroll" data-target="80">
+
+
+
+    <nav class="navbar navbar-expand navbar-light bg-light sticky-top navtop">
+        <a class="navbar-brand" href="/">
+            <img src="{% static "logo/logo.png" %}" width="" height="25" class="d-inline-block align-top" alt="">
+            <span class="d-none d-md-inline">WANUBIT</span>
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" target="_blank" href="https://api.whatsapp.com/send?phone=5551991861216&text=Ola">
+                        <i class="fab fa-whatsapp fa-x"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://t.me/wanubit" target="_blank">
+                        <i class="fab fa-telegram-plane fa-x"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://facebook.com/wanubit" target="_blank">
+                        <i class="fab fa-facebook fa-x"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="https://github.com/asmaur" target="_blank">
+                        <i class="fab fa-github fa-x"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+    <nav class="navbar navbar-expand navbar-dark bg-dark navsub">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse">
+            <ul class="navbar-nav nav-fill w-100" style="font-size: .8rem;">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#main">
+                        {% trans "Home" %}
+                    </a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">
+                       {% trans  "About" %}
+                    </a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">
+                        {% trans "Services" %}
+                    </a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">
+                        {% trans "Projects" %}
+                    </a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#clients">
+                        {% trans "Clients" %}
+                    </a>
+
+                </li>
+              <!--  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Contact
+                    </a>
+
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+
+
+    {% block content %}
+
+
+    {% endblock %}
+
+
+
+
+    <div id="loader-wrapper" style="display: none;">
+				<div id="preloader_1" style="display: none;">
+	                <span></span>
+	                <span></span>
+	                <span></span>
+	                <span></span>
+	                <span></span>
+	            </div>
+    </div>
+
+    <div id="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center pt-3">
+                    <h3> {% trans "Contact" %} </h3>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4 offset-md-4 text-center">
+                    <a href="mailto:wanubit@gmail.com">wanubit@gmail.com</a>
+                </div>
+
+                <div class="col-md-4 offset-md-4 text-center p-4">
+
+                    <div class="d-flex justify-content-around">
+                        <div>
+                            <a href="https://api.whatsapp.com/send?phone=5551991861216&text=Ola" target="_blank">
+                                <i class="fab fa-whatsapp fa-2x"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://t.me/wanubit" target="_blank">
+                                <i class="fab fa-telegram-plane fa-2x"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://facebook.com/wanubit" target="_blank">
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/asmaur" target="_blank">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="{% static "js/jquery.min.js" %}"></script>
+    <script src="{% static "js/popper.min.js" %}"></script>
+    <script src="{% static "vendor/js/bootstrap.min.js" %}"></script>
+    <script src="{% static "OwlCarousel/owl.carousel.min.js" %}"></script>
+
+    <script src="{% static "js/slideNav.js" %}"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                autoplay: true,
+                nav: false,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1,
+
+                    },
+                    600: {
+                        items: 1,
+
+                    },
+                    1000: {
+                        items: 1,
+
+                    }
+                }
+            })
+
+
+        });
+    </script>
+
+    <script>
+	    window.slide = new SlideNav();
+    </script>
+
+
+
+</body>
+
+</html>
+

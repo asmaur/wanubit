@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-04 22:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+
+#: apps/wanu/templates/wanu/base.html:25 apps/wanu/templates/wanu/base.html:28
+msgid "The Future is Online"
+msgstr "O Futuro está Online"
+
+#: apps/wanu/templates/wanu/base.html:26 apps/wanu/templates/wanu/base.html:30
+msgid ""
+"The easy way to build your website, Android applications and python software."
+msgstr "Um jeito fácil e simples de criar seu site, aplicativo android e software en python com profissinais dedicados."
+
+#: apps/wanu/templates/wanu/base.html:86
+msgid "Home"
+msgstr "Início"
+
+#: apps/wanu/templates/wanu/base.html:92 apps/wanu/templates/wanu/index.html:55
+msgid "About"
+msgstr "Sobre"
+
+#: apps/wanu/templates/wanu/base.html:98
+msgid "Services"
+msgstr "Serviços"
+
+#: apps/wanu/templates/wanu/base.html:104
+msgid "Projects"
+msgstr "Projetos"
+
+#: apps/wanu/templates/wanu/base.html:110
+msgid "Clients"
+msgstr "Clientes"
+
+#: apps/wanu/templates/wanu/base.html:148
+msgid "Contact"
+msgstr "Contato"
+
+#: apps/wanu/templates/wanu/index.html:23
+msgid "It's Easy to Build your Website With US"
+msgstr "É simple de construire seu site conosco."
+
+#: apps/wanu/templates/wanu/index.html:24
+msgid "YourDomain.com -- Minimalistic, Beautiful & Responsive Website."
+msgstr "SeuDominio -- Simples, Lindo & Responsivo."
+
+#: apps/wanu/templates/wanu/index.html:30
+msgid "We Are Design Studio"
+msgstr "Somos um studio de design web e de aplicativos."
+
+#: apps/wanu/templates/wanu/index.html:58
+msgid "Dynamic and creative developer service."
+msgstr "Serviço de desenvolvimento dinamico e criativo."
+
+#: apps/wanu/templates/wanu/index.html:60
+msgid ""
+"We make it fast for your to launch your website, application or software."
+msgstr "Facilitamos a criação do seu site, aplicativos e software."
+
+#: apps/wanu/templates/wanu/index.html:75
+#: apps/wanu/templates/wanu/index.html:233
+#: apps/wanu/templates/wanu/index.html:316
+msgid "Work with us"
+msgstr "Trabalhe conosco"
+
+#: apps/wanu/templates/wanu/index.html:114
+msgid "Our Services"
+msgstr "Nossos Serviços"
+
+#: apps/wanu/templates/wanu/index.html:148
+msgid "Web Design"
+msgstr "Design Web"
+
+#: apps/wanu/templates/wanu/index.html:152
+msgid "UI & UX design"
+msgstr "UI & UX design"
+
+#: apps/wanu/templates/wanu/index.html:153
+msgid "Planning Your Website"
+msgstr "Planejamos e Desenhamos o seu site ou aplicativos."
+
+#: apps/wanu/templates/wanu/index.html:154
+msgid "Attend to Develop into Functional Site"
+msgstr "Nosso trabalho é focado no seu usúario"
+
+#: apps/wanu/templates/wanu/index.html:155
+msgid "Quick, Fast & Agil development"
+msgstr "Desenvolvimento Rápido & Agil"
+
+#: apps/wanu/templates/wanu/index.html:190
+msgid "Deployment on App Store and Google Play"
+msgstr "Lançamento nas plataformas App Store e Google Play"
+
+#: apps/wanu/templates/wanu/index.html:272
+msgid "Our Projects"
+msgstr "Nossos Projetos"
+
+#: apps/wanu/templates/wanu/index.html:356
+msgid "testimonials."
+msgstr "Testemunho"
+
+#: wanubit/settings.py:135
+msgid "English"
+msgstr ""
+
+#: wanubit/settings.py:136
+msgid "French"
+msgstr ""
+
+#: wanubit/settings.py:137
+msgid "Portuguese"
+msgstr ""
+
+#: wanubit/settings.py:138
+msgid "Swahili"
+msgstr ""
