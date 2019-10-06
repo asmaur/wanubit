@@ -39,7 +39,10 @@ body{
     font-weight: 600;
 }
 .navsub{
+    height: 1.5rem;
     background-color: #fff !important;
+    top: 60px !important;
+    z-index: 999;
 }
 .navsub .nav-link{
     color: #000 !important;

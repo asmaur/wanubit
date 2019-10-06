@@ -54,7 +54,7 @@ msgstr "Contato"
 
 #: apps/wanu/templates/wanu/index.html:23
 msgid "It's Easy to Build your Website With US"
-msgstr "É simple de construire seu site conosco."
+msgstr "É simples de construir seu site conosco."
 
 #: apps/wanu/templates/wanu/index.html:24
 msgid "YourDomain.com -- Minimalistic, Beautiful & Responsive Website."
@@ -66,7 +66,7 @@ msgstr "Somos um studio de design web e de aplicativos."
 
 #: apps/wanu/templates/wanu/index.html:58
 msgid "Dynamic and creative developer service."
-msgstr "Serviço de desenvolvimento dinamico e criativo."
+msgstr "Serviço de desenvolvimento dinâmico e criativo."
 
 #: apps/wanu/templates/wanu/index.html:60
 msgid ""
@@ -89,11 +89,11 @@ msgstr "Design Web"
 
 #: apps/wanu/templates/wanu/index.html:152
 msgid "UI & UX design"
-msgstr "UI & UX design"
+msgstr "UI e UX design"
 
 #: apps/wanu/templates/wanu/index.html:153
 msgid "Planning Your Website"
-msgstr "Planejamos e Desenhamos o seu site ou aplicativos."
+msgstr "Planejamos e Desenhamos o seu site ou aplicativo."
 
 #: apps/wanu/templates/wanu/index.html:154
 msgid "Attend to Develop into Functional Site"
@@ -101,7 +101,7 @@ msgstr "Nosso trabalho é focado no seu usúario"
 
 #: apps/wanu/templates/wanu/index.html:155
 msgid "Quick, Fast & Agil development"
-msgstr "Desenvolvimento Rápido & Agil"
+msgstr "Desenvolvimento rápido e ágil"
 
 #: apps/wanu/templates/wanu/index.html:190
 msgid "Deployment on App Store and Google Play"
