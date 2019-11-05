@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-04 04:28+0000\n"
+"POT-Creation-Date: 2019-10-20 23:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,9 @@ msgstr "Le Future est En Ligne"
 #: apps/wanu/templates/wanu/base.html:26 apps/wanu/templates/wanu/base.html:30
 msgid ""
 "The easy way to build your website, Android applications and python software."
-msgstr "Une forme facile de developper votre site web, application android et programme en python."
+msgstr ""
+"Une forme facile de developper votre site web, application android et "
+"programme en python."
 
 #: apps/wanu/templates/wanu/base.html:86
 msgid "Home"
@@ -70,7 +72,9 @@ msgstr "Service de développement créatif et dynamique."
 #: apps/wanu/templates/wanu/index.html:60
 msgid ""
 "We make it fast for your to launch your website, application or software."
-msgstr "Nous rendons simple et rapide le lancement de votre site, application ou software."
+msgstr ""
+"Nous rendons simple et rapide le lancement de votre site, application ou "
+"software."
 
 #: apps/wanu/templates/wanu/index.html:75
 #: apps/wanu/templates/wanu/index.html:233
